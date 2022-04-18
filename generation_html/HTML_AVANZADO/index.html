@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Avanzado</title>
+</head>
+<body>
+
+    <style>
+        table,tr,td,th{
+            border: 1px solid black;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+    </style>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#tablas">Tabla</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <h2 id="tablas">Tablas</h2>
+    <table>
+        <!-- cabezera de la tabla -->
+        <thead>
+            <!--crear una fila-->
+            <tr>
+                <th>Cabezera</th>
+                <th>Chida</th>
+            </tr>
+        </thead>
+
+        <!-- cuerpo de la tabla -->
+        <tbody>
+
+            <tr>
+                <td>A</td>
+                <td>D</td>
+                <td rowspan="2">H</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td >I</td>
+            </tr>
+            <tr>
+                <td colspan="2">si</td>
+            </tr>
+        </tbody>
+
+        <!-- pie de la tabla -->
+        <tfoot>
+
+        </tfoot>
+    </table>
+
+    <hr>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="3">alfa</td>
+                <td>bravo</td>
+                <td rowspan="2">charly</td>
+            </tr>
+            <tr>
+                <td>delta</td>
+                <td>echo</td>
+                <td>foxtrot</td>
+                <td>golf</td>
+            </tr>
+            <tr>
+                <td>hotel</td>
+                <td colspan="3" rowspan="2">india</td>
+                <td>juliet</td>
+            </tr>
+            <tr>
+                <td>kilo</td>
+                <td>lima</td>
+            </tr>
+            <tr>
+                <td>mike</td>
+                <td>november</td>
+                <td>oscar</td>
+                <td>papa</td>
+                <td>quebec</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
