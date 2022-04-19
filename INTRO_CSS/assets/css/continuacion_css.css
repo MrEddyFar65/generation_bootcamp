@@ -1,0 +1,32 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.forma{
+    width: 20%;
+    height: auto;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.color{
+    background-color: blue;
+    border: 2px solid red;
+}
+
+p{
+    border: 2px solid black;
+    padding: 20px;
+}
+a{
+    width: 100px;
+    padding: 10px;
+    border: 2px solid red;
+    display: block;
+    margin: 30px auto;
+    margin-top: 50px;
+}
