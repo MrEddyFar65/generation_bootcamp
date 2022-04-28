@@ -1,5 +1,5 @@
 
-let nameS = "julianAlvarez";
+let nameS = () => cadena: cadena.split("")}
 
 console.log(nameS);
 
