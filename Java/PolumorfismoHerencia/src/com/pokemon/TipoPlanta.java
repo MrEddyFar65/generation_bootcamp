@@ -11,7 +11,27 @@ public class TipoPlanta extends Pokemon {
 	}
 	
 	
-	public void evenenar() {
-		System.out.println("Envenenado");
+	public void envenenar() {
+		System.out.println(getNombre() + " Envenenado");
 	}
+
+	public void paralizar() {
+		System.out.println(getNombre() + " Paralizo");
+	}
+
+
+	//Getter and Setter
+	public int getNumeroHojas() {
+		return numeroHojas;
+	}
+
+
+	public void setNumeroHojas(int numeroHojas) {
+		this.numeroHojas = numeroHojas;
+	}
+	
+	public void saludado(String mensaje) {
+		System.out.println("saludado");
+	}
+	
 }

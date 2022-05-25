@@ -20,6 +20,9 @@ public class Pokemon {
 	public void comer() {
 		System.out.println(nombre+ " esta tragando");
 	}
+	public void comer(String comida) {
+		System.out.println(nombre+ " esta tragando " + comida);
+	}
 	
 	public void atacar() {
 		System.out.println(nombre+ " esta atacando");
@@ -28,5 +31,49 @@ public class Pokemon {
 	public void dormir() {
 		System.out.println("ZZZZZ");
 	}
+
+	//getter and setter
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getEdad() {
+		return edad;
+	}
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+
+	public int getNivel() {
+		return nivel;
+	}
+
+	public void setNivel(int nivel) {
+		this.nivel = nivel;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public boolean isEvolution() {
+		return evolution;
+	}
+
+	public void setEvolution(boolean evolution) {
+		this.evolution = evolution;
+	}
+	
+	
+	//public abstract void saludado(String mensaje);
 	
 }
