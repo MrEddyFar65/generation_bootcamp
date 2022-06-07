@@ -32,5 +32,8 @@ public class PersonaController {
 		return personaServiceImp1.registro(nombre);
 	}
 
-
+	@GetMapping("/caclular")
+	public int calcular(@RequestParam(value = "num1") int a, @RequestParam(value="num2")int b) {
+		return personaServiceImp1.calcular(a,b);
+	}
 }

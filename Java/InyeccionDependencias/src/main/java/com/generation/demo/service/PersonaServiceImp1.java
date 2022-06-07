@@ -9,4 +9,10 @@ public class PersonaServiceImp1 implements PersonService {
 	public String registro(String nombre) {
 		return "el wey " + nombre + " se ha registrado";
 	}
+
+	@Override
+	public int calcular(int a, int b) {
+		
+		return 0;
+	}
 }

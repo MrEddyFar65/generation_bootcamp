@@ -5,5 +5,6 @@ public interface PersonService {
 	
 	String registro(String nombre);
 	
+	int calcular(int a, int b);
 	
 }
