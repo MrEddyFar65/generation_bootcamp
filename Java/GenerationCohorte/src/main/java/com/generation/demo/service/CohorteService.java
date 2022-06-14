@@ -12,6 +12,7 @@ public interface CohorteService {
 	
 	List<Cohorte> conseguirCohorte(); //leer todas las cohortes
 	
+	List<Cohorte> getCohortesByCiudad(String ciudad);
 	//Escribir
 	Cohorte saveCohorte(Cohorte cohorte);//guardar la cohorte enviada
 	

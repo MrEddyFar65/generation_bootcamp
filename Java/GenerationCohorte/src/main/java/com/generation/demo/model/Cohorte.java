@@ -19,7 +19,7 @@ public class Cohorte {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id_cohorte;
 	
-	@Column(nullable = false)
+	@Column(nullable = false, name = "numeroCohorte")
 	private Integer numero_cohorte;
 	
 	@Column(nullable = false)
